@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
+.cont .section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+/* .cont .section:nth-child(1){
+    background-image: url(https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2017/02/Photoshop-Replace-Background-Featured.jpg?q=50&fit=contain&w=750&h=375&dpr=1.5);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.cont .section:nth-child(2){
+    background-color: black;
+
+} */
+img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
